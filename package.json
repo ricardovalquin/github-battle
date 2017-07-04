@@ -9,11 +9,15 @@
     "start": "webpack-dev-server --open"
   },
   "babel": {
-    "presets": ["env", "react"]
+    "presets": [
+      "env",
+      "react"
+    ]
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
   },
@@ -24,6 +28,7 @@
     "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.4",
     "html-webpack-plugin": "^2.29.0",
+    "prop-types": "^15.5.10",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "style-loader": "^0.18.2",
