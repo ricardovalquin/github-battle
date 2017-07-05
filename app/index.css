@@ -10,6 +10,11 @@ li {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+  color: #d0021b;
+}
+
 
 .container {
   max-width: 1200px;
@@ -42,6 +47,14 @@ li {
   margin-bottom: 7px;
 }
 
+.space-list-items li a {
+  max-width: 150px;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .avatar {
   width: 150px;
   height: 150px;
@@ -52,6 +65,15 @@ li {
   font-size: 20px;
 }
 
+.nav {
+  display: flex;
+}
 
+.active {
+  font-weight: 700;
+}
 
+.nav li {
+  margin-right: 15px;
+}
 
